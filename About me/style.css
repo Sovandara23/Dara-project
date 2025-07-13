@@ -1,0 +1,35 @@
+.header {
+    color: rgb(50, 108, 200);
+    border-bottom: 2px solid rgb(50, 108, 200) ;
+    align-items: center;
+}
+
+.rounded-corner{
+    border-radius: 8px;
+}
+
+.container {
+    box-shadow: 1px 1px 5px rgba(0,0,0, 0.1);
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.text center {
+    text-align: center;
+}
+.list-container {
+display: flex;
+list-style: none;
+padding: 0;
+margin: 0;
+/* flex-direction: row; */
+gap: 10px;
+justify-content: center;
+}
+#header {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
